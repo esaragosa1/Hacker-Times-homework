@@ -6,6 +6,51 @@ header {
     font-size: 1.5em;
 }
 
+
   span {
     display: inline-block;
+  }
+
+  body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .newspaper-container {
+    background-color: white;
+width: 700px;
+border-radius: 30px;
+  }
+  h2 {
+    font-family: roboto Slab;
+  }
+  
+  nav ul {
+    position: fixed;
+    position: sticky;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+    border-top: solid gray;
+    border-bottom: solid gray;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+  }
+  nav li {
+    display: inline;
+  }
+  .date {
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: left;
+    padding: 1px 100px 1px 15px;
+    font-size: 12px;
+  }
+
+  h5 {
+    color: red;
+    font-family: roboto Slab;
+
+  }
+  p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
